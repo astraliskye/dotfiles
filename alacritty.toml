@@ -1,4 +1,0 @@
-[mouse]
-    bindings = [
-        { mouse = "Right", action = "Copy" },
-    ]
