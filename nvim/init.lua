@@ -736,6 +736,7 @@ do
     -- clangd = {},
     -- gopls = {},
     pyright = {},
+    vtsls = {},
     -- tsc = {},
     --
     -- Some languages (like rust) have entire language plugins that can be useful:
@@ -806,6 +807,7 @@ do
     -- You can add other tools here that you want Mason to install
     'black',
     'pyright',
+    'vtsls'
   })
 
   require('mason-tool-installer').setup { ensure_installed = ensure_installed }
