@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Expected maintenance task:
+# - Update $targets as you add configs that need to be linked
+
 set -euo pipefail
 
 project_root=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
