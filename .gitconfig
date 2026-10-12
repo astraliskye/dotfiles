@@ -17,8 +17,14 @@
 [init]
 	defaultBranch = main
 
+[pull]
+	rebase = false
+	ff = false
+
 [merge]
+	autoStash = true
 	tool = nvim
+	conflictStyle = "zdiff3"
 
 [mergetool]
 	prompt = false
